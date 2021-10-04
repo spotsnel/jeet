@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src='https://meet.jit.si/external_api.js' async></script>
+    <style>html, body, #meet-container { margin: 0px; height: 100%; }</style>
+    <script type="text/javascript">
+      window.onload = () => {
+        const api = new JitsiMeetExternalAPI("meet.jit.si/moderated", {
+          roomName: "32c8c5a4736d856d82aba8f4c717566578c85e54681b6e7c7096415fc0819715",
+          parentNode: document.querySelector('#meet-container')
+        });
+      }
+    </script>
+  </head>
+  <body><div id="meet-container" /></body>
+</html>
